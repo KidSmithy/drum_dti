@@ -1,0 +1,27 @@
+const int leftButton = 2;
+const int rightButton = 3;
+int left = 0;
+int right = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  pinMode(leftButton, INPUT);
+  pinMode(rightButton, INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if(digitalRead(leftButton)){
+    Serial.println("A");
+    Serial.flush();
+    delay(500);
+    Serial.println("NIL");
+  }
+  else if(digitalRead(rightButton)){
+    Serial.println("B");
+    Serial.flush();
+    delay(500);
+    Serial.println("NIL");
+  }
+}
