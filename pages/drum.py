@@ -70,7 +70,7 @@ with Sensor2.container():
 mehmeh = "💡"
 for secondsx in range(drum_timing): 
     with placeholder.container():
-        st.header(f"Countdown Timer: {secondsx+1}")
+        st.header(f"Countdown Timer: {secondsx+1} / {drum_timing}")
 
     with Sensor1.container():
         
