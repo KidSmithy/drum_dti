@@ -52,7 +52,7 @@ placeholder2 = st.empty()
 # col1,col2,col3, col4 = st.columns(4)
 col1,col2mehmeh, col2, col1mehmehmeh,col4 = st.columns([2.5,0.5,2.5,0.5,2.5])
 
-with col1:
+with col4:
     st.image("Boeing-737-Max-9-Alaska.jpg", use_column_width ="auto")
     with st.expander("Boeing 737 MAX"):
         st.write("""The Boeing 737 MAX experienced two tragic crashes, Lion Air Flight 610 in late 2018 and 
@@ -62,7 +62,7 @@ with col1:
                  Despite controversies, the FAA cleared the 737 MAX for return to service in November 2020, after mandated changes.""")
         st.write("Used by: Singapore Airlines")
         if st.button('🎮 Play Skywatchhub Drum - Easy Level 🎮'):
-            st.session_state['drum_timing'] = 5
+            st.session_state['drum_timing'] = 30
             st.session_state['challenging_level'] = "Easy Level"
             st.session_state["fun_fact"] = " Did you know, Boeing 737 MAX has a 241-278 km/h takeoff speed, which is the 1st for speed out of the 3 planes."
             st.switch_page("pages/drum.py")
@@ -87,7 +87,7 @@ with col1:
 
 
 
-with col4:
+with col1:
     st.image("Boeing_787_Dreamliner.jpg", use_column_width ="auto")
     with st.expander("Boeing 787 Dreamliner"):
         st.write("""The Boeing 787 Dreamliner is the first commercial airliner to utilize a significant amount of composite materials 
@@ -101,7 +101,7 @@ with col4:
         #          as well as minimizing the environmental impact of aircraft noise.""")
         st.write("Used by: Scoot, Jetstar, Singapore Airlines(SIA), All Nippon Airways (ANA),Japan Airlines (JAL), Qatar Airways, Etihad Airways, British Airways, United Airlines")
         if st.button('🎮 Play Skywatchhub Drum - Hard Level 🎮'):
-            st.session_state['drum_timing'] = 15
+            st.session_state['drum_timing'] = 10
             st.session_state['challenging_level'] = "Hard Level"
             st.session_state["fun_fact"] = " Did you know, Boeing 787 Dreamliner has a 278-315 km/h takeoff speed, which is the 3rd fastest plane out of the 3 planes."
             st.switch_page("pages/drum.py")
@@ -117,7 +117,7 @@ with col2:
         Advanced soundproofing materials and engineering techniques contribute to a more comfortable and peaceful passenger experience.""")
         st.write("Used by: Singapore Airlines (SIA), Cathay Pacific Airways, Qatar Airways, Finnair, Thai Airways International, Vietnam Airlines, China Airlines")
         if st.button('🎮 Play Skywatchhub Drum - Medium Level 🎮'):
-            st.session_state['drum_timing'] = 10
+            st.session_state['drum_timing'] = 20
             st.session_state['challenging_level'] = "Medium Level"
             st.session_state["fun_fact"] = " Did you know, Airbus A350 has a 259-296 km/h takeoff speed, which is the 2nd fastest plane out of the 3 planes."
             st.switch_page("pages/drum.py")
