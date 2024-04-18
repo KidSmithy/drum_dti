@@ -107,7 +107,7 @@ with Sensor3.container():
 
 with Sensor4.container():
     st.title(f"You manage to charge up {fuel_level[0]}% of energy")
-time.sleep(10)
+time.sleep(15)
 st.switch_page("frontend_taikodrum3.py")
 
    

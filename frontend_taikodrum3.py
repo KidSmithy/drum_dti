@@ -99,10 +99,6 @@ with col4:
                  is made of composite materials such as carbon fiber-reinforced polymer. 
                  This results in a lighter, stronger, and more fuel-efficient aircraft.""")
         st.write("The Boeing 787 Dreamliner can fly non-stop for distances ranging from 13,500 to 17,600 km")
-        # st.write("""The Dreamliner's engines are designed to operate more quietly than those of traditional aircraft, 
-        #          reducing noise both inside the cabin and in surrounding communities. 
-        #          This makes for a quieter and more pleasant passenger experience, 
-        #          as well as minimizing the environmental impact of aircraft noise.""")
         st.write("Used by: Scoot, Jetstar, Singapore Airlines(SIA), All Nippon Airways (ANA),Japan Airlines (JAL), Qatar Airways, Etihad Airways, British Airways, United Airlines")
         if st.button('🎮 Play Skywatchhub Drum - Hard Level 🎮'):
             st.session_state['drum_timing'] = 10
@@ -115,8 +111,7 @@ with col2:
     with st.expander("Airbus A350"):        
         st.write("""The Airbus A350 is constructed using advanced composite materials, including carbon-fiber reinforced polymer (CFRP), 
                  making it one of the most modern and lightweight commercial aircraft in its class. 
-                 Approximately 53% of the aircraft's structure is made of composite materials, 
-                 contributing to its fuel efficiency and durability.""")
+                 Approximately t and durability.""")
         st.write("""The A350 features a quiet cabin environment, 
         with reduced noise levels both inside the aircraft and in surrounding communities during takeoff and landing. 
         Advanced soundproofing materials and engineering techniques contribute to a more comfortable and peaceful passenger experience.""")
