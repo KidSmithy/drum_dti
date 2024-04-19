@@ -110,8 +110,7 @@ with col2:
     st.image("Airbus_A350.jpg", use_column_width ="auto")
     with st.expander("Airbus A350"):        
         st.write("""The Airbus A350 is constructed using advanced composite materials, including carbon-fiber reinforced polymer (CFRP), 
-                 making it one of the most modern and lightweight commercial aircraft in its class. 
-                 Approximately t and durability.""")
+                 making it one of the most modern and lightweight commercial aircraft in its class. """)
         st.write("""The A350 features a quiet cabin environment, 
         with reduced noise levels both inside the aircraft and in surrounding communities during takeoff and landing. 
         Advanced soundproofing materials and engineering techniques contribute to a more comfortable and peaceful passenger experience.""")
